@@ -26,7 +26,7 @@ const Hero = () => {
     }, 5000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="text-center px-4 lg:px-0 pt-12 h-auto space-y-3">

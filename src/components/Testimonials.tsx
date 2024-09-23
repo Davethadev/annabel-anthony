@@ -59,8 +59,9 @@ const Testimonials = () => {
                     <p className="font-satoshi font-normal text-sm text-black">
                       I had the pleasure of working with Annabel and she
                       consistently delivered outstanding UI/UX designs.
-                      Annabel's attention to detail and user-centered approach
-                      resulted in intuitive and visually appealing interfaces.
+                      Annabel&apos;s attention to detail and user-centered
+                      approach resulted in intuitive and visually appealing
+                      interfaces.
                     </p>
                     <p className="font-satoshi font-normal text-sm text-black">
                       She excels at balancing aestethics with functionality,
@@ -112,9 +113,9 @@ const Testimonials = () => {
                 <article className={`px-6 pt-12 pb-6 w-full text-left`}>
                   <div className="space-y-3">
                     <p className="font-satoshi font-normal text-sm text-black">
-                      Great team player! She's got a good sense of designs and
-                      layouts, understands the end user and embeds their needs
-                      in her designs. I definitely recommend Annabel!
+                      Great team player! She&apos;s got a good sense of designs
+                      and layouts, understands the end user and embeds their
+                      needs in her designs. I definitely recommend Annabel!
                     </p>
                   </div>
                   <div className="absolute right-4 bottom-4 text-right">
@@ -134,9 +135,9 @@ const Testimonials = () => {
                       I had the pleasure of working with Annabel on various
                       projects which include HrDesk, Spenda, and Ridepay and I
                       am thrilled to recommend her for any UI/UX design role.
-                      Annabel's proficiency in UI/UX design is outstanding, and
-                      her dedication to her craft is evident in every project
-                      she undertakes.
+                      Annabel&apos;s proficiency in UI/UX design is outstanding,
+                      and her dedication to her craft is evident in every
+                      project she undertakes.
                     </p>
                     <p className="font-satoshi font-normal text-sm text-black">
                       Annabel consistently delivers exceptional design solutions
@@ -149,7 +150,7 @@ const Testimonials = () => {
                       principles.
                     </p>
                     <p className="font-satoshi font-normal text-sm text-black">
-                      One of Annabel's greatest strengths is her ability to
+                      One of Annabel&apos;s greatest strengths is her ability to
                       communicate and collaborate effectively with
                       cross-functional teams. She is always open to feedback and
                       willing to iterate on her designs to ensure the best
