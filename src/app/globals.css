@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 2px solid goldenrod; */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+.contact-me-btn span:nth-of-type(1) {
+  transition: width 500ms ease-in-out;
+}
+
+.contact-me-btn span:nth-of-type(2) {
+  transition: all 500ms ease-in-out;
+}
+
+.contact-me-btn:hover span:nth-of-type(1) {
+  width: 100%;
+}
+
+.contact-me-btn:hover span:nth-of-type(2) {
+  color: white;
+  text-decoration: underline;
+}
+.menu-icon {
+  transform: scale(1.5);
+}
+.menu-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.menu-icon div {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 18px;
+  height: 12px;
+}
+.menu-icon span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #eeeeee;
+  border-radius: 1px;
+  transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+}
+.menu-icon span:first-of-type {
+  top: 0;
+}
+.menu-icon span:last-of-type {
+  bottom: 0;
+}
+.menu-icon.active span:first-of-type {
+  transform: rotate(45deg);
+  top: 5px;
+}
+.menu-icon.active span:last-of-type {
+  transform: rotate(-45deg);
+  bottom: 5px;
+}
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.visible {
+  opacity: 1;
+}
+#projects .qr-card:hover,
+#projects .spenda-card:hover,
+#projects .kukusend-card:hover,
+#projects .ridepay-card:hover {
+  height: auto;
+}
+
+.qr-card:hover small,
+.spenda-card:hover small,
+.kukusend-card:hover small,
+.ridepay-card:hover small {
+  height: 80px;
+}
+.ridepay-card:hover .ridepay-image {
+  display: block;
+}
+/* #projects:has(.qr-card:hover) .spenda-card {
+  height: 24.625%;
+}
+#projects:has(.spenda-card:hover) .qr-card {
+  height: 24.625%;
+}
+#projects:has(.kukusend-card:hover) .ridepay-card {
+  height: 25%;
+}
+#projects:has(.ridepay-card:hover) .kukusend-card {
+  height: 24.625%;
+} */
+#projects:has(.qr-card:hover) .spenda-card > .spenda-img {
+  display: none;
+}
+#projects:has(.qr-card:hover) .spenda-card {
+  padding-bottom: 102px;
+}
+#projects:has(.spenda-card:hover) .qr-card {
+  padding-bottom: 54px;
+}
+#projects:has(.spenda-card:hover) .qr-card > .qr-img {
+  display: none;
+}
+#projects:has(.kukusend-card:hover) .ridepay-card > .ridepay-image,
+#projects:has(.kukusend-card:hover) .ridepay-card > p {
+  display: none;
+}
+#projects:has(.ridepay-card:hover) .kukusend-card > .kukusend-img {
+  display: none;
+}
+.cards {
+  position: relative;
+}
+.card {
+  height: 384px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: #eeeeee;
+  border-radius: 8px;
+  margin: 0 auto;
+  transform: translateY(0) rotate(0deg) translateX(0px) scale(1);
+  transform-origin: 0 0;
+  transition: transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s,
+    background 0.4s linear;
+}
+.card:nth-of-type(4) {
+  width: 904px;
+  top: 0px;
+}
+.card:nth-of-type(3) {
+  width: 940px;
+  top: 24px;
+}
+.card:nth-of-type(2) {
+  width: 976px;
+  top: 48px;
+}
+.card:nth-of-type(1) {
+  width: 1012px;
+  top: 72px;
+}
+.card--next {
+  z-index: 5;
+  transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1);
+}
+.card--out {
+  animation: card-out 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8);
+  transform: translateY(-50px) rotate(8deg) translateX(55px) scale(0.95);
+  z-index: 1;
+}
+.card--current {
+  position: relative;
+  z-index: 10;
+  opacity: 1;
+  /* transform: rotate(-1deg) translateX(0%) scale(1); */
+}
+.testimonials-slider {
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+}
+@keyframes card-out {
+  0% {
+    z-index: 20;
+    transform: translateY(0px) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-120%) rotate(-5deg) translateX(-40px);
+  }
+  80% {
+    z-index: 1;
+  }
+  100% {
+    transform: translateY(-50px) rotate(8deg) translateX(55px) scale(0.95);
+  }
+}
+@media (max-width: 1332px) {
+  .card:nth-of-type(1) {
+    width: 80%;
+  }
+  .card:nth-of-type(2) {
+    width: 77.5%;
+  }
+  .card:nth-of-type(3) {
+    width: 75%;
+  }
+  .card:nth-of-type(4) {
+    width: 72.5%;
+  }
+}
