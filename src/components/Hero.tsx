@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 // import { ParallaxReveal } from "../effects";
 
 const Hero = () => {
@@ -12,8 +12,8 @@ const Hero = () => {
     "/assets/images/hr-desk.png",
   ];
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isImageVisible, setIsImageVisible] = useState(true);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -30,10 +30,7 @@ const Hero = () => {
 
   return (
     <div className="text-center px-4 lg:px-0 pt-12 h-auto space-y-3">
-      <h1
-        data-aos="fade-up"
-        className="font-satoshi font-medium text-white text-2xl lg:text-5xl grid grid-cols-1 place-items-center place-content-center leading-tight gap-0 lg:gap-4"
-      >
+      <h1 className="font-satoshi font-medium text-white text-2xl lg:text-5xl grid grid-cols-1 place-items-center place-content-center leading-tight gap-0 lg:gap-4">
         <span className="block">I Transform Ideas Into</span>
         <span className="block">
           <span className="text-primary font-semibold">Designs</span> to Solve

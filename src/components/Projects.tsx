@@ -10,9 +10,9 @@ const Projects = () => {
         </h2>
         <div
           id="projects"
-          className="lg:flex items-center gap-3 pt-16 w-full h-auto lg:h-[956px]"
+          className="lg:flex items-center gap-3 pt-16 w-full h-auto lg:h-[756px]"
         >
-          <div className="relative h-full w-[85%] mx-auto lg:w-[32.5%]">
+          <div className="relative h-full w-[95%] mx-auto lg:w-[32.5%]">
             <article className="bg-raisin_black rounded-2xl pt-6 px-6 pb-0 mb-3 lg:mb-0 space-y-4 h-max w-full relative lg:absolute top-0 left-0 qr-card">
               <h4 className="font-satoshi font-semibold text-base text-white">
                 QR Pass
@@ -72,7 +72,7 @@ const Projects = () => {
               />
             </article>
           </div>
-          <div className="relative h-full w-[85%] mx-auto lg:w-[67.5%]">
+          <div className="relative h-full w-[95%] mx-auto lg:w-[67.5%]">
             <article className="bg-charleston_green h-max w-full rounded-2xl pt-6 px-6 pb-0 space-y-4 mt-3 lg:mt-0 relative lg:absolute top-0 right-0 kukusend-card">
               <div className="flex items-center gap-2">
                 <h4 className="font-satoshi font-semibold text-base text-white">

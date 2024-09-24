@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { testimonials } from "../constants";
 import { TestimonialsSlider } from "./TestimonialsSlider";
-import { useTestimonialAnimation } from "../../hooks/useTestimonialAnimation";
+import { useTestimonialAnimation } from "../hooks/useTestimonialAnimation";
 
 const Testimonials = () => {
   const {

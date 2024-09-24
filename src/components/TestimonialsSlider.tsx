@@ -65,7 +65,7 @@ export const TestimonialsSlider: React.FC = () => {
           const { id, comments, name, role } = testimonial;
           return (
             <SwiperSlide key={id}>
-              <div className="bg-bright_gray h-96 rounded-lg">
+              <div className="bg-bright_gray h-80 rounded-lg">
                 <article className="px-6 pt-12 pb-6 text-left">
                   <div className="space-y-3">
                     {comments.map((comment, index) => (

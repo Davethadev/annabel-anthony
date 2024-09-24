@@ -13,23 +13,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 60px;
 }
-
-.contact-me-btn span:nth-of-type(1) {
-  transition: width 500ms ease-in-out;
-}
-
-.contact-me-btn span:nth-of-type(2) {
-  transition: all 500ms ease-in-out;
-}
-
-.contact-me-btn:hover span:nth-of-type(1) {
-  width: 100%;
-}
-
-.contact-me-btn:hover span:nth-of-type(2) {
-  color: white;
-  text-decoration: underline;
-}
 .menu-icon {
   transform: scale(1.5);
 }
@@ -71,6 +54,19 @@ html {
   transform: rotate(-45deg);
   bottom: 5px;
 }
+.contact-me-btn span:nth-of-type(1) {
+  transition: width 500ms ease-in-out;
+}
+.contact-me-btn span:nth-of-type(2) {
+  transition: all 500ms ease-in-out;
+}
+.contact-me-btn:hover span:nth-of-type(1) {
+  width: 100%;
+}
+.contact-me-btn:hover span:nth-of-type(2) {
+  color: white;
+  text-decoration: underline;
+}
 .fade {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -84,7 +80,6 @@ html {
 #projects .ridepay-card:hover {
   height: auto;
 }
-
 .qr-card:hover small,
 .spenda-card:hover small,
 .kukusend-card:hover small,
@@ -94,18 +89,6 @@ html {
 .ridepay-card:hover .ridepay-image {
   display: block;
 }
-/* #projects:has(.qr-card:hover) .spenda-card {
-  height: 24.625%;
-}
-#projects:has(.spenda-card:hover) .qr-card {
-  height: 24.625%;
-}
-#projects:has(.kukusend-card:hover) .ridepay-card {
-  height: 25%;
-}
-#projects:has(.ridepay-card:hover) .kukusend-card {
-  height: 24.625%;
-} */
 #projects:has(.qr-card:hover) .spenda-card > .spenda-img {
   display: none;
 }
