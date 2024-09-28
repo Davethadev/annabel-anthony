@@ -43,12 +43,15 @@ const Hero = () => {
       <small className="font-satoshi font-thin text-bright_gray text-sm lg:text-lg block">
         Designing seamless interactions one product at a time
       </small>
-      <button className="block w-48 mx-auto h-8 bg-primary rounded-3xl relative overflow-hidden font-satoshi font-medium text-black text-sm hover:text-white contact-me-btn">
+      <a
+        href="mailto:anthonyannabel16@gmail.com"
+        className="block w-48 mx-auto h-8 bg-primary rounded-3xl relative overflow-hidden font-satoshi font-medium text-black text-sm hover:text-white contact-me-btn"
+      >
         <span className="w-[10%] h-full rounded-r-2xl bg-raisin_black block"></span>
         <span className="absolute z-10 right-0 left-0 top-1.5 text-center">
           Contact me for jobs
         </span>
-      </button>
+      </a>
       <div className="pt-8">
         <Image
           src={images[currentImageIndex]}

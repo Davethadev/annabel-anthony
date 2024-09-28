@@ -99,12 +99,15 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <button className="hidden lg:block w-[120px] h-8 bg-primary rounded-3xl relative overflow-hidden font-satoshi font-medium text-black text-sm hover:text-white contact-me-btn">
+        <a
+          href="mailto:anthonyannabel16@gmail.com"
+          className="hidden lg:block w-[120px] h-8 bg-primary rounded-3xl relative overflow-hidden font-satoshi font-medium text-black text-sm hover:text-white contact-me-btn"
+        >
           <span className="w-[15%] h-full rounded-r-2xl bg-raisin_black block"></span>
           <span className="absolute z-10 right-0 left-0 top-1.5 text-center">
             Contact me
           </span>
-        </button>
+        </a>
       </div>
       {/* MOBILE NAV */}
       <AnimatePresence>

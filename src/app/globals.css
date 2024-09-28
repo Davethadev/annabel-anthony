@@ -74,10 +74,35 @@ html {
 .visible {
   opacity: 1;
 }
-#projects .qr-card:hover,
-#projects .spenda-card:hover,
-#projects .kukusend-card:hover,
-#projects .ridepay-card:hover {
+.projects {
+  padding-top: 64px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "qr kukusend kukusend"
+    "qr kukusend kukusend"
+    "spenda kukusend kukusend"
+    "spenda ridepay ridepay";
+  gap: 12px;
+}
+.projects .qr-card {
+  grid-area: qr;
+}
+.projects .spenda-card {
+  grid-area: spenda;
+}
+.projects .kukusend-card {
+  grid-area: kukusend;
+}
+.projects .ridepay-card {
+  grid-area: ridepay;
+}
+.projects .qr-card:hover,
+.projects .spenda-card:hover,
+.projects .kukusend-card:hover,
+.projects .ridepay-card:hover {
   height: auto;
 }
 .qr-card:hover small,
@@ -89,23 +114,23 @@ html {
 .ridepay-card:hover .ridepay-image {
   display: block;
 }
-#projects:has(.qr-card:hover) .spenda-card > .spenda-img {
+.projects:has(.qr-card:hover) .spenda-card > .spenda-img {
   display: none;
 }
-#projects:has(.qr-card:hover) .spenda-card {
+.projects:has(.qr-card:hover) .spenda-card {
   padding-bottom: 102px;
 }
-#projects:has(.spenda-card:hover) .qr-card {
+.projects:has(.spenda-card:hover) .qr-card {
   padding-bottom: 54px;
 }
-#projects:has(.spenda-card:hover) .qr-card > .qr-img {
+.projects:has(.spenda-card:hover) .qr-card > .qr-img {
   display: none;
 }
-#projects:has(.kukusend-card:hover) .ridepay-card > .ridepay-image,
-#projects:has(.kukusend-card:hover) .ridepay-card > p {
+.projects:has(.kukusend-card:hover) .ridepay-card > .ridepay-image,
+.projects:has(.kukusend-card:hover) .ridepay-card > p {
   display: none;
 }
-#projects:has(.ridepay-card:hover) .kukusend-card > .kukusend-img {
+.projects:has(.ridepay-card:hover) .kukusend-card > .kukusend-img {
   display: none;
 }
 .cards {

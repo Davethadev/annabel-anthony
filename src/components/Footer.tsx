@@ -18,19 +18,22 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-3 gap-2 place-items-center mt-6 lg:mt-0">
           {socials.map((social, index) => {
+            const {imgPath, link} = social;
             return (
-              <span
+              <a 
+                href={link}
+                target="_blank"
                 key={index}
                 className="bg-raisin_black w-16 h-12 rounded-xl p-3 flex justify-center items-center"
               >
                 <Image
-                  src={social}
+                  src={imgPath}
                   alt=""
-                  height={26}
-                  width={26}
+                  height={22}
+                  width={22}
                   className="w-auto h-auto"
                 />
-              </span>
+              </a>
             );
           })}
         </div>
