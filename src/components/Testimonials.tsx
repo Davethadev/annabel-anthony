@@ -54,7 +54,7 @@ const Testimonials = () => {
 
             <div className="cards relative">
               <div className="card">
-                <article className={`px-6 pt-12 pb-6 w-full text-left`}>
+                <article className={`px-12 pt-20 pb-6 w-full text-left`}>
                   <div className="space-y-3">
                     <p className="font-satoshi font-normal text-sm text-black">
                       I had the pleasure of working with Annabel and she
@@ -82,7 +82,8 @@ const Testimonials = () => {
                 </article>
               </div>
               <div className="card">
-                <article className={`px-6 pt-12 pb-6 w-full text-left`}>
+                <div className="h-2 w-full drop-shadow-2xl bg-bright_gray"></div>
+                <article className={`px-6 pt-20 pb-6 w-full text-left`}>
                   <div className="space-y-3">
                     <p className="font-satoshi font-normal text-sm text-black">
                       Annabel is an exceptionally talented and dedicated UI/UX
@@ -110,7 +111,8 @@ const Testimonials = () => {
                 </article>
               </div>
               <div className="card">
-                <article className={`px-6 pt-12 pb-6 w-full text-left`}>
+                <div className="h-2 w-full drop-shadow-2xl bg-bright_gray"></div>
+                <article className={`px-6 pt-20 pb-6 w-full text-left`}>
                   <div className="space-y-3">
                     <p className="font-satoshi font-normal text-sm text-black">
                       Great team player! She&apos;s got a good sense of designs
@@ -129,6 +131,7 @@ const Testimonials = () => {
                 </article>
               </div>
               <div className="card">
+                <div className="h-2 w-full drop-shadow-2xl bg-bright_gray"></div>
                 <article className={`px-6 pt-12 pb-6 w-full text-left`}>
                   <div className="space-y-3">
                     <p className="font-satoshi font-normal text-sm text-black">

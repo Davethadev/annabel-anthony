@@ -8,12 +8,7 @@ const Projects = () => {
           A peek at some of the projects I&apos;ve <br /> had my hands on so
           far.
         </h2>
-        <div
-          // id="projects"
-          className="projects"
-        >
-          {/* <div className="relative h-full w-[95%] mx-auto lg:w-[32.5%]">
-          </div> */}
+        <div className="projects">
           <article className="bg-raisin_black rounded-2xl pt-6 px-6 pb-0 mb-3 lg:mb-0 space-y-4 h-full w-full qr-card">
             <h4 className="font-satoshi font-semibold text-base text-white">
               QR Pass
@@ -69,7 +64,7 @@ const Projects = () => {
               alt=""
               width={340}
               height={256}
-              className="ml-auto w-auto spenda-img"
+              className="ml-auto w-auto spenda-img block"
             />
           </article>
           {/* <div className="relative h-full w-[95%] mx-auto lg:w-[67.5%]">

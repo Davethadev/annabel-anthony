@@ -156,6 +156,15 @@ const Navbar = () => {
                 Testimonials
               </a>
             </li>
+            <a
+              href="mailto:anthonyannabel16@gmail.com"
+              className="block w-44 mx-auto h-10 bg-primary rounded-3xl relative overflow-hidden font-clashdisplay font-medium text-black text-lg uppercase hover:text-white contact-me-btn"
+            >
+              <span className="w-[10%] h-full rounded-r-full bg-raisin_black block"></span>
+              <span className="absolute z-10 right-0 left-0 top-1.5 text-center">
+                Contact me
+              </span>
+            </a>
           </motion.ul>
         )}
       </AnimatePresence>
