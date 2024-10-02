@@ -5,7 +5,7 @@ const About = () => {
   // const phrase = `a UI/UX designer based in Lagos, Nigeria. With over a year of experience, I'm passionate about designing impactful, user-centric products. Got a project in mind?`;
   return (
     <div id="about" className="w-full h-auto pt-12">
-      <div className="lg:flex items-center justify-between w-[90%] lg:max-w-[75%] mx-auto space-y-8 lg:space-y-0">
+      <div className="lg:flex items-center justify-between w-[90%] lg:max-w-[77.5%] mx-auto space-y-8 lg:space-y-0">
         <div className="space-y-4">
           <h2 className="font-satoshi font-bold text-white text-xl lg:text-4xl">
             Hi, I&apos;m Annabel Anthony!👋🏻
