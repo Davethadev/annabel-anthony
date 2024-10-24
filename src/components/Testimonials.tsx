@@ -28,7 +28,7 @@ const Testimonials = () => {
               Testimonials
             </h2>
             <p className="font-satoshi font-light text-base text-white">
-              Don&apos;t believe me, hear it from the <br /> others
+              Don&apos;t believe me, hear it from <br /> others
             </p>
           </div>
           <div className="lg:hidden">

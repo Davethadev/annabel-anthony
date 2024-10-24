@@ -35,8 +35,9 @@ const About = () => {
           <Image
             src={"/assets/images/annabel-2.png"}
             alt=""
-            width={560}
-            height={660}
+            width={510}
+            height={610}
+            style={{margin: "0 auto"}}
           />
         </div>
       </div>
