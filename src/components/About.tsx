@@ -37,7 +37,6 @@ const About = () => {
             alt=""
             width={560}
             height={660}
-            className="w-full"
           />
         </div>
       </div>

@@ -28,7 +28,7 @@ export const useTestimonialAnimation = (testimonials: Testimonial[]) => {
         cards.forEach((card, index) => {
             const offset = index - currentIndex;
             card.style.zIndex = `${testimonials.length - Math.abs(offset)}`;
-            card.style.transform = `translateY(${offset * 6}px) translateX(${offset * 25}px) scale(${1 - Math.abs(offset) * 0.05})`;
+            card.style.transform = `translateX(${offset * 18}px) scale(${1 - Math.abs(offset) * 0.036})`;
             card.className = 'card';
             if (offset === 0) card.classList.add('card--current');
             else if (offset === 1) card.classList.add('card--next');
