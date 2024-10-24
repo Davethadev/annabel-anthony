@@ -49,7 +49,7 @@ const Projects = () => {
               Click to view
             </a>
             <p className="font-satoshi font-medium text-black text-lg">
-              Track your spending and map your <br /> financial future
+              Track your spending and map your <br className="hidden lg:block" /> financial future
               effortlessly.
             </p>
 
@@ -89,13 +89,13 @@ const Projects = () => {
               Click to view
             </a>
             <p className="font-satoshi font-medium text-white text-lg">
-              Seamless cross-border payments from Nigeria <br /> to the world!
+              Seamless cross-border payments from Nigeria <br className="hidden lg:block" /> to the world!
             </p>
 
             <small className="font-satoshi font-extralight text-white text-xs h-0 overflow-hidden block transition-all duration-500 ease-in-out">
               KukuSend is a cutting-edge cross-border payment platform that
-              allows you to send <br /> and receive money globally in different
-              currencies, making international transactions <br /> seamless and
+              allows you to send <br className="hidden lg:block" /> and receive money globally in different
+              currencies, making international transactions <br className="hidden lg:block" /> seamless and
               secure.
             </small>
             <Image
@@ -118,13 +118,13 @@ const Projects = () => {
             </a>
 
             <p className="font-satoshi font-medium text-black text-lg">
-              Effortless ride payments made easy with a four-digit <br /> code!
+              Effortless ride payments made easy with a four-digit <br className="hidden lg:block" /> code!
             </p>
 
             <small className="font-satoshi font-extralight text-black text-xs h-0 overflow-hidden block transition-all duration-500 ease-in-out">
               Revolutionising the way you pay for transportation. Our online
-              platform lets you <br /> handle payments effortlessly using a
-              four-digit code, eliminating the need for <br /> account numbers.
+              platform lets you <br className="hidden lg:block" /> handle payments effortlessly using a
+              four-digit code, eliminating the need for <br className="hidden lg:block" /> account numbers.
             </small>
             <Image
               src={"/assets/images/ridepay.png"}

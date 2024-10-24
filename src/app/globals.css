@@ -219,4 +219,11 @@ html {
       "kukusend"
       "ridepay";
   }
+  .projects:has(.ridepay-card:hover) {
+    grid-template-areas:
+      "qr"
+      "spenda"
+      "kukusend"
+      "ridepay";
+  }
 }
