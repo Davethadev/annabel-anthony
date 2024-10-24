@@ -67,8 +67,6 @@ const Projects = () => {
               className="ml-auto w-full spenda-img block"
             />
           </article>
-          {/* <div className="relative h-full w-[95%] mx-auto lg:w-[67.5%]">
-          </div> */}
           <article className="bg-charleston_green h-full w-full rounded-2xl pt-6 px-6 pb-0 space-y-4 mt-3 lg:mt-0 kukusend-card">
             <div className="flex items-center gap-2">
               <h4 className="font-satoshi font-semibold text-base text-white">

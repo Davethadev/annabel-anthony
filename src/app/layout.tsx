@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { BalancerProvider } from "./provider";
 
 const satoshi = localFont({
   src: [
@@ -63,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${satoshi.variable} ${clashDispay.variable}`}>
-        <BalancerProvider>{children}</BalancerProvider>
+        {children}
       </body>
     </html>
   );
