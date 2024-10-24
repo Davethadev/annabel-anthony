@@ -24,7 +24,7 @@ const Projects = () => {
               organizers.
             </p>
 
-            <small className="font-satoshi font-extralight text-white text-xs h-0 overflow-hidden block transition-all duration-500 ease-in-out">
+            <small className="font-satoshi font-extralight text-white text-xs h-20 lg:h-0 overflow-hidden block transition-all duration-500 ease-in-out">
               This app is designed to streamline the invitation process for
               events. It allows event organisers to generate unique QR codes for
               each invitee, which can be scanned upon entry to verify if the
@@ -53,7 +53,7 @@ const Projects = () => {
               effortlessly.
             </p>
 
-            <small className="font-satoshi font-extralight text-black text-xs h-0 overflow-hidden block transition-all duration-500 ease-in-out">
+            <small className="font-satoshi font-extralight text-black text-xs h-20 lg:h-0 overflow-hidden block transition-all duration-500 ease-in-out">
               Using Spenda, tracking your spending becomes the first step to
               organising your finances. By understanding where your money goes
               and the cost of items, you can pinpoint exactly where your cash is
@@ -67,8 +67,6 @@ const Projects = () => {
               className="ml-auto w-full spenda-img block"
             />
           </article>
-          {/* <div className="relative h-full w-[95%] mx-auto lg:w-[67.5%]">
-          </div> */}
           <article className="bg-charleston_green h-full w-full rounded-2xl pt-6 px-6 pb-0 space-y-4 mt-3 lg:mt-0 kukusend-card">
             <div className="flex items-center gap-2">
               <h4 className="font-satoshi font-semibold text-base text-white">
@@ -92,7 +90,7 @@ const Projects = () => {
               Seamless cross-border payments from Nigeria <br className="hidden lg:block" /> to the world!
             </p>
 
-            <small className="font-satoshi font-extralight text-white text-xs h-0 overflow-hidden block transition-all duration-500 ease-in-out">
+            <small className="font-satoshi font-extralight text-white text-xs h-20 lg:h-0 overflow-hidden block transition-all duration-500 ease-in-out">
               KukuSend is a cutting-edge cross-border payment platform that
               allows you to send <br className="hidden lg:block" /> and receive money globally in different
               currencies, making international transactions <br className="hidden lg:block" /> seamless and
@@ -121,7 +119,7 @@ const Projects = () => {
               Effortless ride payments made easy with a four-digit <br className="hidden lg:block" /> code!
             </p>
 
-            <small className="font-satoshi font-extralight text-black text-xs h-0 overflow-hidden block transition-all duration-500 ease-in-out">
+            <small className="font-satoshi font-extralight text-black text-xs h-20 lg:h-0 overflow-hidden block transition-all duration-500 ease-in-out">
               Revolutionising the way you pay for transportation. Our online
               platform lets you <br className="hidden lg:block" /> handle payments effortlessly using a
               four-digit code, eliminating the need for <br className="hidden lg:block" /> account numbers.
@@ -131,7 +129,7 @@ const Projects = () => {
               alt=""
               width={520}
               height={370}
-              className="ml-auto w-full hidden ridepay-image"
+              className="ml-auto w-full lg:hidden ridepay-image"
             />
           </article>
         </div>

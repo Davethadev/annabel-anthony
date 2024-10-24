@@ -5,11 +5,9 @@ import type { Swiper as SwiperType } from "swiper";
 import Image from "next/image";
 
 import "swiper/css";
-// import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 import { testimonials } from "../constants";
-// import { useTestimonialAnimation } from "../../hooks/useTestimonialAnimation";
 
 export const TestimonialsSlider: React.FC = () => {
   const swiperRef = useRef<SwiperType>();
@@ -29,8 +27,6 @@ export const TestimonialsSlider: React.FC = () => {
       swiperRef.current.slidePrev();
     }
   }, []);
-
-  // const { isFirstCard, isLastCard } = useTestimonialAnimation(testimonials);
 
   return (
     <div className="relative w-[80%] mx-auto flex items-center gap-4">
@@ -52,7 +48,6 @@ export const TestimonialsSlider: React.FC = () => {
         modules={[Autoplay]}
         spaceBetween={50}
         slidesPerView={1}
-        // pagination={{ clickable: true }}
         autoplay
         onSwiper={handleSwiper}
         breakpoints={{

@@ -2,10 +2,8 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-// import { ParallaxReveal } from "../effects";
 
 const Hero = () => {
-  // const phrase = "Designing seamless interactions one product at a time";
   const images = [
     "/assets/images/qr-pass-hero.png",
     "/assets/images/kukusend.png",
@@ -37,9 +35,6 @@ const Hero = () => {
           Real-life Problems
         </span>
       </h1>
-      {/* <div className="font-satoshi font-thin text-bright_gray text-sm lg:text-lg">
-        <ParallaxReveal paragraph={phrase} />
-      </div> */}
       <small className="font-satoshi font-thin text-bright_gray text-sm lg:text-lg block">
         Designing seamless interactions one product at a time
       </small>
