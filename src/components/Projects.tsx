@@ -35,7 +35,7 @@ const Projects = () => {
               alt=""
               width={294}
               height={214}
-              className="w-auto qr-img pb-0 mx-auto"
+              className="qr-img w-full pb-0 mx-auto"
             />
           </article>
           <article className="bg-primary h-full w-full rounded-2xl pt-6 px-6 pb-3 space-y-4 spenda-card">
@@ -64,7 +64,7 @@ const Projects = () => {
               alt=""
               width={340}
               height={256}
-              className="ml-auto w-auto spenda-img block"
+              className="ml-auto w-full spenda-img block"
             />
           </article>
           {/* <div className="relative h-full w-[95%] mx-auto lg:w-[67.5%]">
@@ -131,7 +131,7 @@ const Projects = () => {
               alt=""
               width={520}
               height={370}
-              className="ml-auto w-auto hidden ridepay-image"
+              className="ml-auto w-full hidden ridepay-image"
             />
           </article>
         </div>

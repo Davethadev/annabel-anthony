@@ -58,7 +58,7 @@ const Hero = () => {
           alt=""
           width={620}
           height={580}
-          className={`w-auto mx-auto fade ${isImageVisible ? "visible" : ""}`}
+          className={`mx-auto fade ${isImageVisible ? "visible" : ""}`}
         />
       </div>
     </div>

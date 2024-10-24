@@ -22,7 +22,7 @@ const Testimonials = () => {
   return (
     <div id="testimonials" className="w-full">
       <div className="w-[90%] mx-auto text-center">
-        <div className="bg-charleston_green relative h-auto lg:h-[720px] pt-20 pb-8 rounded-b-2xl space-y-12 w-full">
+        <div className="bg-charleston_green relative h-auto lg:h-[780px] pt-20 pb-8 rounded-b-2xl space-y-12 w-full">
           <div className="space-y-3">
             <h2 className="font-satoshi font-semibold text-white text-xl md:text-4xl leading-tight">
               Testimonials
@@ -71,7 +71,7 @@ const Testimonials = () => {
                       highly recommend her for any UI/UX design role.
                     </p>
                   </div>
-                  <div className="absolute right-4 bottom-4 text-right">
+                  <div className="absolute right-8 bottom-8 text-right">
                     <h3 className="font-satoshi font-bold text-lg text-black">
                       Zainab Oyedeji
                     </h3>
@@ -100,7 +100,7 @@ const Testimonials = () => {
                       team.
                     </p>
                   </div>
-                  <div className="absolute right-4 bottom-4 text-right">
+                  <div className="absolute right-8 bottom-8 text-right">
                     <h3 className="font-satoshi font-bold text-lg text-black">
                       Salim Abubakar
                     </h3>
@@ -120,7 +120,7 @@ const Testimonials = () => {
                       needs in her designs. I definitely recommend Annabel!
                     </p>
                   </div>
-                  <div className="absolute right-4 bottom-4 text-right">
+                  <div className="absolute right-8 bottom-8 text-right">
                     <h3 className="font-satoshi font-bold text-lg text-black">
                       Arinze Ihemedu
                     </h3>
@@ -152,7 +152,7 @@ const Testimonials = () => {
                       attention to detail, and a deep understanding of design
                       principles.
                     </p>
-                    <p className="font-satoshi font-normal text-sm text-black">
+                    <p className="font-satoshi font-normal text-sm text-black hidden xl:block">
                       One of Annabel&apos;s greatest strengths is her ability to
                       communicate and collaborate effectively with
                       cross-functional teams. She is always open to feedback and
@@ -169,7 +169,7 @@ const Testimonials = () => {
                       experiences.
                     </p>
                   </div>
-                  <div className="absolute right-4 bottom-4 text-right">
+                  <div className="absolute right-8 bottom-8 text-right">
                     <h3 className="font-satoshi font-bold text-lg text-black">
                       Majiri Eyowel
                     </h3>
@@ -179,38 +179,6 @@ const Testimonials = () => {
                   </div>
                 </article>
               </div>
-              {/* {testimonials.map((testimonial) => {
-                const { comments, name, role } = testimonial;
-                return (
-                  <div
-                    key={testimonial.id}
-                    className="card relative lg:absolute bg-bright_gray right-0 left-0 top-0 w-[90%] lg:w-[904px] mx-auto h-auto lg:h-96 rounded-lg"
-                  >
-                    <article className={`px-6 pt-12 pb-6 w-full text-left`}>
-                      <div className="space-y-3">
-                        {comments.map((comment, index) => {
-                          return (
-                            <p
-                              key={index}
-                              className="font-satoshi font-normal text-sm text-black"
-                            >
-                              {comment}
-                            </p>
-                          );
-                        })}
-                      </div>
-                      <div className="absolute right-4 bottom-4 text-right">
-                        <h3 className="font-satoshi font-bold text-lg text-black">
-                          {name}
-                        </h3>
-                        <small className="font-satoshi font-normal text-xs text-black">
-                          {role}
-                        </small>
-                      </div>
-                    </article>
-                  </div>
-                );
-              })} */}
             </div>
             {!isLastCard && (
               <button

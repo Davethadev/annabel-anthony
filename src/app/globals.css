@@ -139,6 +139,7 @@ html {
 }
 .card {
   height: 384px;
+  width: 1012px;
   position: absolute;
   left: 0;
   right: 0;
@@ -147,25 +148,21 @@ html {
   border-radius: 12px;
   margin: 0 auto;
   overflow: hidden;
-  transform: translateY(0) rotate(0deg) translateX(0px) scale(1);
+  transform: translateX(-50%, 50%);
   transform-origin: 0 0;
   transition: transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s,
     background 0.4s linear;
 }
 .card:nth-of-type(4) {
-  width: 1011.25px;
   top: 0px;
 }
 .card:nth-of-type(3) {
-  width: 1011.5px;
   top: 24px;
 }
 .card:nth-of-type(2) {
-  width: 1011.75px;
   top: 48px;
 }
 .card:nth-of-type(1) {
-  width: 1012px;
   top: 72px;
 }
 .card--next {
@@ -181,7 +178,6 @@ html {
   position: relative;
   z-index: 10;
   opacity: 1;
-  /* transform: rotate(-1deg) translateX(0%) scale(1); */
 }
 .testimonials-slider {
   width: 90%;
@@ -203,19 +199,15 @@ html {
     transform: translateY(-50px) rotate(8deg) translateX(55px) scale(0.95);
   }
 }
-@media (max-width: 1332px) {
-  .card:nth-of-type(1) {
-    width: 80%;
-  }
-  .card:nth-of-type(2) {
-    width: 77.5%;
-  }
-  .card:nth-of-type(3) {
+@media (max-width: 1432px) {
+   .card {
     width: 75%;
-  }
-  .card:nth-of-type(4) {
-    width: 72.5%;
-  }
+   }
+}
+@media (max-width: 1332px) {
+   .card {
+    width: 70%;
+   }
 }
 
 @media (max-width: 1024px) {
