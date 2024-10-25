@@ -2,45 +2,9 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-// import { useAnimate, stagger, AnimationSequence } from "framer-motion";
-
-// const useMenuAnimation = (isActive: boolean) => {
-//   const [scope, animate] = useAnimate();
-
-//   useEffect(() => {
-//     const menuAnimations: AnimationSequence = isActive
-//       ? [
-//           [
-//             ".menu",
-//             { transform: "translateY(-100vh)" },
-//             { ease: "easeInOut", duration: 0.25 },
-//           ],
-//           [
-//             "li",
-//             { opacity: 1 },
-//             { ease: "easeInOut", duration: 0.25, delay: stagger(0.25) },
-//           ],
-//         ]
-//       : [
-//           [
-//             "li",
-//             { opacity: 0 },
-//             { ease: "easeInOut", duration: 0.25, delay: stagger(0.25) },
-//           ],
-//           [
-//             ".menu",
-//             { transform: "translateY(0)" },
-//             { ease: "easeInOut", duration: 0.25 },
-//           ],
-//         ];
-//     animate(menuAnimations);
-//   }, [isActive, animate]);
-//   return scope;
-// };
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
-  // const scope = useMenuAnimation(isActive);
 
   return (
     <nav className="w-full sticky top-0 z-30 bg-black">
@@ -119,7 +83,6 @@ const Navbar = () => {
               transition: { ease: "easeInOut", duration: 0.25 },
             }}
             exit={{ y: "100vh" }}
-            // ref={scope}
             className={`lg:hidden flex flex-col gap-6 pt-28 fixed inset-0 top-0 right-0 left-0 text-center z-20 bg-black w-full h-[100vh] menu overflow-${
               isActive ? "hidden" : "auto"
             }`}
